@@ -1,0 +1,1880 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58629,
+            41.77333
+          ]
+        },
+        "properties": {
+          "location": "Stony Island-Cornell-67th",
+          "direction": "NB",
+          "installation_date": "11/25/2007"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68627,
+            41.87608
+          ]
+        },
+        "properties": {
+          "location": "Western-Van Buren",
+          "direction": "WB, SB",
+          "installation_date": "05/28/2008"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58582,
+            41.7515
+          ]
+        },
+        "properties": {
+          "location": "Stony Island-79th-South Chicago",
+          "direction": "SB, WB, NB",
+          "installation_date": "05/06/2007"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6056,
+            41.7659
+          ]
+        },
+        "properties": {
+          "location": "Cottage Grove-71st-South Chicago",
+          "direction": "SEB, SB",
+          "installation_date": "04/29/2008"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6779,
+            41.92499
+          ]
+        },
+        "properties": {
+          "location": "Damen-Fullerton",
+          "direction": "EB",
+          "installation_date": "02/17/2006"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.78655,
+            41.95291
+          ]
+        },
+        "properties": {
+          "location": "Narragansett-Irving Park",
+          "direction": "EB, WB",
+          "installation_date": "10/13/2004"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68643,
+            41.88116
+          ]
+        },
+        "properties": {
+          "location": "Western-Madison",
+          "direction": "NB, WB",
+          "installation_date": "05/31/2004"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74832,
+            41.98989
+          ]
+        },
+        "properties": {
+          "location": "Cicero-Peterson",
+          "direction": "SB, WB",
+          "installation_date": "08/25/2008"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68627,
+            41.87608
+          ]
+        },
+        "properties": {
+          "location": "Western-Van Buren",
+          "direction": "WB, SB",
+          "installation_date": "05/28/2008"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.58582,
+            41.7515
+          ]
+        },
+        "properties": {
+          "location": "Stony Island-79th-South Chicago",
+          "direction": "SB, WB, NB",
+          "installation_date": "05/06/2007"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6056,
+            41.7659
+          ]
+        },
+        "properties": {
+          "location": "Cottage Grove-71st-South Chicago",
+          "direction": "SEB, SB",
+          "installation_date": "04/29/2008"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.6779,
+            41.92499
+          ]
+        },
+        "properties": {
+          "location": "Damen-Fullerton",
+          "direction": "EB",
+          "installation_date": "02/17/2006"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.78655,
+            41.95291
+          ]
+        },
+        "properties": {
+          "location": "Narragansett-Irving Park",
+          "direction": "EB, WB",
+          "installation_date": "10/13/2004"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68643,
+            41.88116
+          ]
+        },
+        "properties": {
+          "location": "Western-Madison",
+          "direction": "NB, WB",
+          "installation_date": "05/31/2004"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74832,
+            41.98989
+          ]
+        },
+        "properties": {
+          "location": "Cicero-Peterson",
+          "direction": "SB, WB",
+          "installation_date": "08/25/2008"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67599,
+            41.92554
+          ]
+        },
+        "properties": {
+          "location": "Cicero-Fullerton",
+          "direction": "NB, SB",
+          "installation_date": "07/01/2007"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70358,
+            41.89576
+          ]
+        },
+        "properties": {
+          "location": "Pulaski-Kennedy",
+          "direction": "WB, SB",
+          "installation_date": "02/14/2009"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73421,
+            41.85812
+          ]
+        },
+        "properties": {
+          "location": "Northwestern-Howard",
+          "direction": "EB, SB",
+          "installation_date": "09/22/2005"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73245,
+            41.90532
+          ]
+        },
+        "properties": {
+          "location": "Pulaski-Diversey",
+          "direction": "WB, NB",
+          "installation_date": "01/15/2006"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75231,
+            41.89746
+          ]
+        },
+        "properties": {
+          "location": "Cicero-Diversey",
+          "direction": "EB, SB",
+          "installation_date": "12/12/2007"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.78369,
+            41.97826
+          ]
+        },
+        "properties": {
+          "location": "Narragansett-Devon",
+          "direction": "EB, SB",
+          "installation_date": "08/08/2007"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67487,
+            41.93342
+          ]
+        },
+        "properties": {
+          "location": "Cicero-Lawrence",
+          "direction": "NB, SB",
+          "installation_date": "03/17/2009"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74632,
+            41.89113
+          ]
+        },
+        "properties": {
+          "location": "Pulaski-Addison",
+          "direction": "EB, SB",
+          "installation_date": "11/06/2006"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73256,
+            41.93771
+          ]
+        },
+        "properties": {
+          "location": "Cicero-Logan",
+          "direction": "WB, SB",
+          "installation_date": "01/24/2006"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77547,
+            41.91118
+          ]
+        },
+        "properties": {
+          "location": "Narragansett-Armitage",
+          "direction": "EB, SB",
+          "installation_date": "09/12/2008"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76334,
+            41.87281
+          ]
+        },
+        "properties": {
+          "location": "Cicero-Foster",
+          "direction": "EB, SB",
+          "installation_date": "07/22/2008"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.78756,
+            41.93306
+          ]
+        },
+        "properties": {
+          "location": "Western-Armitage",
+          "direction": "NB, SB",
+          "installation_date": "03/27/2007"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72796,
+            41.89049
+          ]
+        },
+        "properties": {
+          "location": "Cicero-Grand",
+          "direction": "NB, SB",
+          "installation_date": "04/11/2009"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74118,
+            41.93156
+          ]
+        },
+        "properties": {
+          "location": "Western-Armitage",
+          "direction": "NB, SB",
+          "installation_date": "02/15/2006"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74298,
+            41.94755
+          ]
+        },
+        "properties": {
+          "location": "Western-Belmont",
+          "direction": "NB, WB",
+          "installation_date": "07/15/2007"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71193,
+            41.91898
+          ]
+        },
+        "properties": {
+          "location": "Pulaski-Cermak",
+          "direction": "EB, WB",
+          "installation_date": "11/30/2007"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67952,
+            41.92601
+          ]
+        },
+        "properties": {
+          "location": "Cicero-Grand",
+          "direction": "NB, SB",
+          "installation_date": "01/10/2008"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74897,
+            41.93129
+          ]
+        },
+        "properties": {
+          "location": "Western-Division",
+          "direction": "EB, SB",
+          "installation_date": "04/14/2008"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71519,
+            41.97515
+          ]
+        },
+        "properties": {
+          "location": "Western-Lawrence",
+          "direction": "NB, WB",
+          "installation_date": "10/05/2006"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68147,
+            41.92807
+          ]
+        },
+        "properties": {
+          "location": "Cicero-Milwaukee",
+          "direction": "NB, SB",
+          "installation_date": "12/05/2007"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.78669,
+            41.86892
+          ]
+        },
+        "properties": {
+          "location": "Narragansett-Grand",
+          "direction": "EB, SB",
+          "installation_date": "05/28/2008"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67113,
+            41.87615
+          ]
+        },
+        "properties": {
+          "location": "Cicero-Harrison",
+          "direction": "NB, SB",
+          "installation_date": "09/24/2006"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73565,
+            41.90465
+          ]
+        },
+        "properties": {
+          "location": "Cicero-Grand",
+          "direction": "NB, SB",
+          "installation_date": "07/15/2007"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73726,
+            41.95601
+          ]
+        },
+        "properties": {
+          "location": "Western-Milwaukee",
+          "direction": "WB, SB",
+          "installation_date": "06/02/2009"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71172,
+            41.89639
+          ]
+        },
+        "properties": {
+          "location": "Pulaski-Armitage",
+          "direction": "NB, SB",
+          "installation_date": "05/11/2007"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74535,
+            41.95783
+          ]
+        },
+        "properties": {
+          "location": "Cicero-Devon",
+          "direction": "EB, WB",
+          "installation_date": "03/15/2008"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72543,
+            41.90893
+          ]
+        },
+        "properties": {
+          "location": "Cicero-Logan",
+          "direction": "NB, WB",
+          "installation_date": "07/23/2007"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71823,
+            41.97631
+          ]
+        },
+        "properties": {
+          "location": "Pulaski-Lawrence",
+          "direction": "EB, SB",
+          "installation_date": "04/07/2009"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76204,
+            41.88446
+          ]
+        },
+        "properties": {
+          "location": "Western-Cermak",
+          "direction": "NB, WB",
+          "installation_date": "10/09/2007"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74297,
+            41.96112
+          ]
+        },
+        "properties": {
+          "location": "Western-Medical",
+          "direction": "EB, WB",
+          "installation_date": "03/28/2008"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67436,
+            41.94987
+          ]
+        },
+        "properties": {
+          "location": "Cicero-Roscoe",
+          "direction": "NB, WB",
+          "installation_date": "12/11/2006"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.69007,
+            41.95047
+          ]
+        },
+        "properties": {
+          "location": "Cicero-Belmont",
+          "direction": "WB, SB",
+          "installation_date": "05/13/2007"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70798,
+            41.95444
+          ]
+        },
+        "properties": {
+          "location": "Western-Fullerton",
+          "direction": "NB, WB",
+          "installation_date": "03/30/2008"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76265,
+            41.93079
+          ]
+        },
+        "properties": {
+          "location": "Western-Montrose",
+          "direction": "EB, WB",
+          "installation_date": "06/01/2006"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73992,
+            41.91982
+          ]
+        },
+        "properties": {
+          "location": "Western-Division",
+          "direction": "NB, SB",
+          "installation_date": "07/28/2008"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70748,
+            41.94622
+          ]
+        },
+        "properties": {
+          "location": "Western-Kedzie",
+          "direction": "EB, WB",
+          "installation_date": "05/30/2009"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67709,
+            41.90262
+          ]
+        },
+        "properties": {
+          "location": "Cicero-Addison",
+          "direction": "EB, SB",
+          "installation_date": "09/14/2007"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75473,
+            41.91079
+          ]
+        },
+        "properties": {
+          "location": "Western-Lincoln",
+          "direction": "NB, SB",
+          "installation_date": "06/18/2006"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75712,
+            41.88867
+          ]
+        },
+        "properties": {
+          "location": "Cicero-Wellington",
+          "direction": "WB, SB",
+          "installation_date": "05/20/2008"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.68697,
+            41.95421
+          ]
+        },
+        "properties": {
+          "location": "Cicero-Kedzie",
+          "direction": "EB, WB",
+          "installation_date": "08/17/2007"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74041,
+            41.97711
+          ]
+        },
+        "properties": {
+          "location": "Pulaski-Belmont",
+          "direction": "EB, WB",
+          "installation_date": "07/17/2006"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75843,
+            41.91773
+          ]
+        },
+        "properties": {
+          "location": "Western-Armitage",
+          "direction": "NB, WB",
+          "installation_date": "03/25/2009"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73189,
+            41.96443
+          ]
+        },
+        "properties": {
+          "location": "Cicero-Roscoe",
+          "direction": "NB, SB",
+          "installation_date": "12/14/2008"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67499,
+            41.89476
+          ]
+        },
+        "properties": {
+          "location": "Pulaski-Division",
+          "direction": "NB, SB",
+          "installation_date": "10/25/2006"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70474,
+            41.98956
+          ]
+        },
+        "properties": {
+          "location": "Western-Montrose",
+          "direction": "EB, SB",
+          "installation_date": "05/15/2007"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67655,
+            41.91592
+          ]
+        },
+        "properties": {
+          "location": "Pulaski-Lincoln",
+          "direction": "EB, WB",
+          "installation_date": "09/09/2008"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77792,
+            41.97481
+          ]
+        },
+        "properties": {
+          "location": "Cicero-Narragansett",
+          "direction": "NB, SB",
+          "installation_date": "12/21/2006"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.78534,
+            41.85975
+          ]
+        },
+        "properties": {
+          "location": "Western-Narragansett",
+          "direction": "EB, SB",
+          "installation_date": "10/18/2007"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.67048,
+            41.93112
+          ]
+        },
+        "properties": {
+          "location": "Cicero-Montrose",
+          "direction": "EB, WB",
+          "installation_date": "11/06/2007"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.78042,
+            41.81263
+          ]
+        },
+        "properties": {
+          "location": "Western-51st",
+          "direction": "EB, SB",
+          "installation_date": "08/02/2006"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.78982,
+            41.80345
+          ]
+        },
+        "properties": {
+          "location": "Western-59th",
+          "direction": "NB, SB",
+          "installation_date": "09/14/2007"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74648,
+            41.79738
+          ]
+        },
+        "properties": {
+          "location": "Cicero-75th",
+          "direction": "NB, SB",
+          "installation_date": "12/05/2006"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72673,
+            41.81062
+          ]
+        },
+        "properties": {
+          "location": "Cottage Grove-63rd",
+          "direction": "EB, WB",
+          "installation_date": "06/26/2008"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70819,
+            41.78124
+          ]
+        },
+        "properties": {
+          "location": "Pulaski-71st",
+          "direction": "NB, SB",
+          "installation_date": "04/21/2007"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73657,
+            41.76598
+          ]
+        },
+        "properties": {
+          "location": "Western-79th",
+          "direction": "NB, SB",
+          "installation_date": "07/30/2007"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75016,
+            41.77213
+          ]
+        },
+        "properties": {
+          "location": "Pulaski-87th",
+          "direction": "NB, SB",
+          "installation_date": "05/02/2007"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70341,
+            41.76692
+          ]
+        },
+        "properties": {
+          "location": "Cicero-79th",
+          "direction": "NB, SB",
+          "installation_date": "09/03/2006"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70598,
+            41.77312
+          ]
+        },
+        "properties": {
+          "location": "Cottage Grove-79th",
+          "direction": "EB, WB",
+          "installation_date": "01/09/2007"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74421,
+            41.74789
+          ]
+        },
+        "properties": {
+          "location": "Cicero-69th",
+          "direction": "EB, WB",
+          "installation_date": "12/21/2007"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71043,
+            41.75951
+          ]
+        },
+        "properties": {
+          "location": "Cottage Grove-61st",
+          "direction": "NB, SB",
+          "installation_date": "08/04/2007"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77897,
+            41.83379
+          ]
+        },
+        "properties": {
+          "location": "Western-47th",
+          "direction": "EB, SB",
+          "installation_date": "09/27/2007"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72354,
+            41.82444
+          ]
+        },
+        "properties": {
+          "location": "Cicero-59th",
+          "direction": "NB, SB",
+          "installation_date": "10/05/2006"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70896,
+            41.74058
+          ]
+        },
+        "properties": {
+          "location": "Cottage Grove-87th",
+          "direction": "EB, WB",
+          "installation_date": "11/12/2007"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73819,
+            41.74867
+          ]
+        },
+        "properties": {
+          "location": "Cicero-55th",
+          "direction": "NB, SB",
+          "installation_date": "01/30/2008"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75238,
+            41.75692
+          ]
+        },
+        "properties": {
+          "location": "Western-63rd",
+          "direction": "NB, SB",
+          "installation_date": "02/06/2007"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70161,
+            41.78456
+          ]
+        },
+        "properties": {
+          "location": "Pulaski-75th",
+          "direction": "NB, SB",
+          "installation_date": "07/18/2006"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73602,
+            41.83116
+          ]
+        },
+        "properties": {
+          "location": "Cottage Grove-49th",
+          "direction": "EB, WB",
+          "installation_date": "09/14/2007"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71915,
+            41.80333
+          ]
+        },
+        "properties": {
+          "location": "Cottage Grove-79th",
+          "direction": "EB, WB",
+          "installation_date": "08/19/2007"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74006,
+            41.75673
+          ]
+        },
+        "properties": {
+          "location": "Pulaski-79th",
+          "direction": "NB, SB",
+          "installation_date": "11/30/2007"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70431,
+            41.82239
+          ]
+        },
+        "properties": {
+          "location": "Western-47th",
+          "direction": "EB, WB",
+          "installation_date": "02/16/2008"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75684,
+            41.80154
+          ]
+        },
+        "properties": {
+          "location": "Cicero-51st",
+          "direction": "NB, SB",
+          "installation_date": "05/08/2007"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74604,
+            41.74656
+          ]
+        },
+        "properties": {
+          "location": "Cicero-61st",
+          "direction": "EB, WB",
+          "installation_date": "08/09/2007"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.77523,
+            41.78956
+          ]
+        },
+        "properties": {
+          "location": "Western-65th",
+          "direction": "NB, SB",
+          "installation_date": "03/13/2008"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73152,
+            41.78748
+          ]
+        },
+        "properties": {
+          "location": "Cottage Grove-55th",
+          "direction": "EB, WB",
+          "installation_date": "06/27/2007"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75541,
+            41.78291
+          ]
+        },
+        "properties": {
+          "location": "Cicero-67th",
+          "direction": "NB, SB",
+          "installation_date": "11/17/2007"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70932,
+            41.79931
+          ]
+        },
+        "properties": {
+          "location": "Pulaski-81st",
+          "direction": "NB, SB",
+          "installation_date": "01/22/2007"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74463,
+            41.81324
+          ]
+        },
+        "properties": {
+          "location": "Cottage Grove-59th",
+          "direction": "NB, SB",
+          "installation_date": "09/06/2007"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73885,
+            41.76647
+          ]
+        },
+        "properties": {
+          "location": "Cicero-63rd",
+          "direction": "NB, SB",
+          "installation_date": "03/26/2008"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72642,
+            41.81912
+          ]
+        },
+        "properties": {
+          "location": "Pulaski-51st",
+          "direction": "EB, WB",
+          "installation_date": "05/02/2007"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76456,
+            41.77596
+          ]
+        },
+        "properties": {
+          "location": "Cottage Grove-71st",
+          "direction": "EB, WB",
+          "installation_date": "02/01/2007"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71939,
+            41.74288
+          ]
+        },
+        "properties": {
+          "location": "Cicero-61st",
+          "direction": "NB, SB",
+          "installation_date": "06/23/2007"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72366,
+            41.79724
+          ]
+        },
+        "properties": {
+          "location": "Pulaski-63rd",
+          "direction": "NB, SB",
+          "installation_date": "11/21/2007"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75903,
+            41.82242
+          ]
+        },
+        "properties": {
+          "location": "Western-47th",
+          "direction": "NB, SB",
+          "installation_date": "04/30/2008"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74215,
+            41.76034
+          ]
+        },
+        "properties": {
+          "location": "Cicero-63rd",
+          "direction": "NB, SB",
+          "installation_date": "02/20/2008"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70517,
+            41.76678
+          ]
+        },
+        "properties": {
+          "location": "Cottage Grove-75th",
+          "direction": "EB, WB",
+          "installation_date": "08/29/2007"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74629,
+            41.80201
+          ]
+        },
+        "properties": {
+          "location": "Pulaski-79th",
+          "direction": "NB, SB",
+          "installation_date": "05/15/2007"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72943,
+            41.75622
+          ]
+        },
+        "properties": {
+          "location": "Cicero-87th",
+          "direction": "NB, SB",
+          "installation_date": "06/15/2008"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76622,
+            41.75287
+          ]
+        },
+        "properties": {
+          "location": "Cottage Grove-81st",
+          "direction": "EB, WB",
+          "installation_date": "10/09/2007"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70748,
+            41.75326
+          ]
+        },
+        "properties": {
+          "location": "Western-81st",
+          "direction": "NB, SB",
+          "installation_date": "02/14/2008"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74412,
+            41.78823
+          ]
+        },
+        "properties": {
+          "location": "Pulaski-51st",
+          "direction": "NB, SB",
+          "installation_date": "04/28/2007"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70329,
+            41.78194
+          ]
+        },
+        "properties": {
+          "location": "Western-59th",
+          "direction": "NB, SB",
+          "installation_date": "12/10/2007"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72994,
+            41.77971
+          ]
+        },
+        "properties": {
+          "location": "Cicero-61st",
+          "direction": "NB, SB",
+          "installation_date": "03/19/2007"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71062,
+            41.82148
+          ]
+        },
+        "properties": {
+          "location": "Western-55th",
+          "direction": "NB, SB",
+          "installation_date": "01/16/2008"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75961,
+            41.81909
+          ]
+        },
+        "properties": {
+          "location": "Cottage Grove-69th",
+          "direction": "EB, WB",
+          "installation_date": "10/11/2007"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75629,
+            41.75411
+          ]
+        },
+        "properties": {
+          "location": "Pulaski-75th",
+          "direction": "NB, SB",
+          "installation_date": "09/05/2007"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74482,
+            41.75923
+          ]
+        },
+        "properties": {
+          "location": "Cicero-65th",
+          "direction": "NB, SB",
+          "installation_date": "08/14/2007"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72333,
+            41.77187
+          ]
+        },
+        "properties": {
+          "location": "Cottage Grove-79th",
+          "direction": "NB, SB",
+          "installation_date": "03/29/2008"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76219,
+            41.75771
+          ]
+        },
+        "properties": {
+          "location": "Pulaski-65th",
+          "direction": "NB, SB",
+          "installation_date": "05/01/2008"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70211,
+            41.74351
+          ]
+        },
+        "properties": {
+          "location": "Cicero-71st",
+          "direction": "NB, SB",
+          "installation_date": "11/13/2007"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.75692,
+            41.77207
+          ]
+        },
+        "properties": {
+          "location": "Western-59th",
+          "direction": "NB, SB",
+          "installation_date": "02/01/2008"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.72635,
+            41.77352
+          ]
+        },
+        "properties": {
+          "location": "Pulaski-63rd",
+          "direction": "NB, SB",
+          "installation_date": "09/17/2007"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76255,
+            41.80473
+          ]
+        },
+        "properties": {
+          "location": "Cottage Grove-55th",
+          "direction": "EB, WB",
+          "installation_date": "07/19/2007"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76648,
+            41.79177
+          ]
+        },
+        "properties": {
+          "location": "Western-65th",
+          "direction": "NB, SB",
+          "installation_date": "05/06/2007"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70623,
+            41.76861
+          ]
+        },
+        "properties": {
+          "location": "Cicero-75th",
+          "direction": "NB, SB",
+          "installation_date": "12/07/2007"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71367,
+            41.79011
+          ]
+        },
+        "properties": {
+          "location": "Pulaski-79th",
+          "direction": "EB, WB",
+          "installation_date": "04/19/2007"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.71146,
+            41.77346
+          ]
+        },
+        "properties": {
+          "location": "Cottage Grove-75th",
+          "direction": "NB, SB",
+          "installation_date": "09/28/2007"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.74891,
+            41.77949
+          ]
+        },
+        "properties": {
+          "location": "Western-83rd",
+          "direction": "EB, WB",
+          "installation_date": "01/08/2008"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.73184,
+            41.74025
+          ]
+        },
+        "properties": {
+          "location": "Cicero-47th",
+          "direction": "NB, SB",
+          "installation_date": "06/18/2008"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.76534,
+            41.81901
+          ]
+        },
+        "properties": {
+          "location": "Cottage Grove-69th",
+          "direction": "NB, SB",
+          "installation_date": "11/29/2007"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.70244,
+            41.75633
+          ]
+        },
+        "properties": {
+          "location": "Pulaski-67th",
+          "direction": "EB, WB",
+          "installation_date": "12/15/2007"
+        }
+      }
+    ]
+  }

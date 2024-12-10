@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Red Light Cameras in Chicago</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <!-- Link to Google Fonts for Open Sans -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: 'Open Sans', sans-serif; /* Set font to Open Sans */
+    }
+
+    h1 {
+      background-color: rgba(0, 0, 0, 0.7);
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin: 0;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 1000;
+      font-size: 24px;
+    }
+
+    #map {
+      height: 100%; /* Full page map */
+      width: 100%;
+      margin-top: 60px;
+    }
+
+    .legend {
+      background: white;
+      padding: 10px;
+      position: fixed;
+      bottom: 20px;
+      left: 20px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+      font-size: 14px;
+      z-index: 1000;
+      line-height: 1.5em;
+    }
+
+    .legend a {
+      text-decoration: none;
+      color: #007BFF;
+    }
+
+    .legend a:hover {
+      text-decoration: underline;
+    }
+
+    .legend .camera-icon {
+      font-size: 18px;
+      margin-right: 5px;
+    }
+
+    #chart-container {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      width: 300px;
+      height: 150px;
+      background: white;
+      border: 1px solid #ccc;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+      z-index: 1000;
+      padding: 10px;
+      box-sizing: border-box;
+      border-radius: 8px;
+    }
+
+    #chart-container canvas {
+      width: 100%;
+      height: 100%;
+    }
+
+    /* Position the image above the red-light camera legend on the left side */
+    #image-container {
+      position: fixed;
+      bottom: 160px; /* Adjusted to position above the legend */
+      left: 20px; /* Changed to left side */
+      z-index: 1000;
+    }
+
+    #image-container img {
+      width: 100px; /* Set image size */
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <h1>Red Light Cameras in Chicago</h1>
+
+  <div id="map"></div>
+  
+  <!-- Chart container -->
+  <div id="chart-container">
+    <canvas id="histogram"></canvas>
+  </div>
+
+  <!-- Image container -->
+  <div id="image-container">
+    <img src="Logo maker project.png" alt="Red Light Camera" />
+  </div>
+
+  <!-- Legend -->
+  <div class="legend">
+    <div>
+      <span class="camera-icon">📸</span> Red Light Camera
+    </div>
+    <div>
+      <a href="https://www.illinoispolicy.org/red-light-cameras-take-another-500m-from-illinois-drivers-in-5-years/" target="_blank">
+        Learn more about red-light cameras
+      </a>
+    </div>
+    <div>
+      <a href="https://www.cityofchicago.org/city/en/depts/dcd/provdrs/eco/supp_info/vehiclesandinfra0.html" target="_blank">
+        Data source: City of Chicago
+      </a>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script>
+    // Initialize the map, centered over Chicago with a zoom level of 12
+    const map = L.map('map').setView([41.8781, -87.6298], 12); // Centered over Chicago
+
+    // Add CartoDB Positron basemap for a clean, simple look
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
+    }).addTo(map);
+
+    // Fetch the GeoJSON data from the file 'map-5.geojson'
+    fetch('map-5.geojson')  // Make sure this path is correct
+      .then(response => response.json())  // Parse the GeoJSON file
+      .then(data => {
+        const installationDates = [];
+
+        // Add the GeoJSON data to the map with custom camera emoji markers
+        L.geoJSON(data, {
+          pointToLayer: function (feature, latlng) {
+            // Create a custom camera emoji icon for each point
+            return L.marker(latlng, {
+              icon: L.divIcon({
+                className: 'camera-icon', // Custom class for styling
+                html: '📸',  // Camera emoji
+                iconSize: [30, 30] // Size of the icon
+              })
+            });
+          },
+          onEachFeature: function (feature, layer) {
+            // Display popups for each feature
+            if (feature.properties && feature.properties.location) {
+              layer.bindPopup('<b>Location:</b> ' + feature.properties.location +
+                              '<br><b>Direction:</b> ' + feature.properties.direction +
+                              '<br><b>Installation Date:</b> ' + feature.properties.installation_date);
+
+              // Collect installation dates for the histogram
+              if (feature.properties.installation_date) {
+                installationDates.push(feature.properties.installation_date);
+              }
+            }
+          }
+        }).addTo(map);
+
+        // Create the histogram after data is loaded
+        createHistogram(installationDates);
+      })
+      .catch(error => console.error('Error loading the GeoJSON file:', error));
+
+    // Function to create a histogram using Chart.js
+    function createHistogram(dates) {
+      // Count occurrences of each year
+      const yearCounts = dates.reduce((acc, date) => {
+        const year = date.split('/')[2]; // Extract the year from the date
+        acc[year] = (acc[year] || 0) + 1;
+        return acc;
+      }, {});
+
+      // Sort years and prepare data for the chart
+      const sortedYears = Object.keys(yearCounts).sort();
+      const counts = sortedYears.map(year => yearCounts[year]);
+
+      // Create a Chart.js histogram
+      const ctx = document.getElementById('histogram').getContext('2d');
+      new Chart(ctx, {
+        type: 'bar',
+        data: {
+          labels: sortedYears,
+          datasets: [{
+            label: 'Number of Installations',
+            data: counts,
+            backgroundColor: 'rgba(75, 192, 192, 0.6)',
+            borderColor: 'rgba(75, 192, 192, 1)',
+            borderWidth: 1
+          }]
+        },
+        options: {
+          responsive: true,
+          scales: {
+            x: {
+              title: {
+                display: true,
+                text: 'Year'
+              }
+            },
+            y: {
+              beginAtZero: true,
+              title: {
+                display: true,
+                text: 'Installations'
+              }
+            }
+          }
+        }
+      });
+    }
+    
+  </script>
+</body>
+</html>
