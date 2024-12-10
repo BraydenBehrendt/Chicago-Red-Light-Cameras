@@ -94,6 +94,14 @@
       width: 100px; /* Set image size */
       height: auto;
     }
+
+    /* Custom CSS to position scale bar at bottom center */
+    .leaflet-control-scale {
+      position: absolute !important;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
   </style>
 </head>
 <body>
@@ -136,6 +144,13 @@
     // Add CartoDB Positron basemap for a clean, simple look
     L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
+    }).addTo(map);
+
+    // Add the scale bar
+    L.control.scale({
+      position: 'bottomright',  // Initial position set to bottom right
+      metric: true,             // Enable the metric scale (kilometers, meters)
+      imperial: false           // Disable the imperial scale (miles, feet)
     }).addTo(map);
 
     // Fetch the GeoJSON data from the file 'map-5.geojson'
